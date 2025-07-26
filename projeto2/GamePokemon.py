@@ -37,10 +37,6 @@ class PokemonAgua(Pokemon):
         print(f'{self} lançou um jato de água em {pokemon}')
 
 
-class Pikachu(PokemonEletrico):
-    especie = "Pikachu"
-
-
 meu_pokemon = PokemonFogo("Charmander")
 pokemon_amigo = PokemonEletrico("Pikachu")
 
