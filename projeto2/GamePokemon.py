@@ -49,4 +49,3 @@ pokemon_amigo = PokemonEletrico("Pikachu")
 
 meu_pokemon.atacar(pokemon_amigo)
 pokemon_amigo.atacar(meu_pokemon)
-
