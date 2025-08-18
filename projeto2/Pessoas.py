@@ -1,9 +1,11 @@
 import random
 from GamePokemon import *
 
+
 NOMES = ["João", "Isabela", "Lorena", "Francisco", "Ricardo", "Diego",
          "Patricia", "Marcelo", "Gustavo", "Gerônimo", "Gary"
          ]
+
 
 POKEMONS = [
     PokemonFogo("Charmander"),
@@ -14,6 +16,7 @@ POKEMONS = [
     PokemonAgua("Squirtle"),
     PokemonAgua("Magicarpy"),
 ]
+
 
 class Pessoa:
 
@@ -57,7 +60,3 @@ class Inimigo(Pessoa):
 
         super().__init__(nome=nome, pokemons=pokemons) # super() a classe pai e pode chamar os objetos contidos nele.
 
-
-meu_inimigo = Inimigo()
-print(meu_inimigo)
-meu_inimigo.mostrar_pokemons()
